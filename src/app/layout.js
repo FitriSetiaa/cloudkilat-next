@@ -1,5 +1,6 @@
 import localFont from "next/font/local";
 import "./globals.css";
+import { Nunito } from 'next/font/google'
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -11,6 +12,11 @@ const geistMono = localFont({
   variable: "--font-geist-mono",
   weight: "100 900",
 });
+const geistNunito = Nunito({
+  subsets: ['latin'],  // Pilih subset yang ingin digunakan
+  weight: ['300', '400', '600', '700'],  // Pilih variasi berat font
+  variable: '--font-nunito',  // Gunakan CSS variable untuk Nunito
+});
 
 export const metadata = {
   title: "Create Next App",
@@ -21,7 +27,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${geistNunito.variable} antialiased`}
       >
         {children}
       </body>
