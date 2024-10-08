@@ -13,7 +13,7 @@ const geistMono = localFont({
   weight: "100 900",
 });
 const geistNunito = Nunito({
-  subsets: ['latin'],  // Pilih subset yang ingin digunakan
+  subsets: ['latin'], 
   weight: ['300', '400', '600', '700'],  // Pilih variasi berat font
   variable: '--font-nunito',  // Gunakan CSS variable untuk Nunito
 });
