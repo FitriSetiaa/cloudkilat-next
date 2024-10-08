@@ -2,9 +2,9 @@ import Image from "next/image";
 
 const Information = () => {
   return (
-    <div className="relative p-5 sm:p-10 nunito">
+    <div className="relative  md:p-[50px] nunito">
       <div className="flex justify-between items-center mb-10">
-        <strong><h1 className="text-[#136AAD] text-3xl">INFORMASI UMUM</h1></strong>
+        <strong><h1 className="nunito font-bold text-2xl text-blue-800 ml-10 ">INFORMASI UMUM</h1></strong>
         <a href="">
         <div className="flex items-center gap-2">
           <p className="hidden sm:block">Tampilkan Semua</p>
@@ -18,9 +18,9 @@ const Information = () => {
         </div>
         </a>
       </div>
-      <div className="font-bold">
+      <div className="font-bold pl-7">
         <a href="">
-        <div className="flex gap-3 text-[16px] sm:text-[20px] hover:text-[#136AAD] mb-2">
+        <div className="flex gap-3 text-[18px] sm:text-[18px] hover:text-[#136AAD] mb-2">
             <Image 
             className=""
             src="/images/logo_cloudkilat.png"
@@ -32,7 +32,7 @@ const Information = () => {
         </div>
         </a>
         <a href="">
-        <div className="flex gap-3 text-[16px] sm:text-[20px] hover:text-[#136AAD] mb-2">
+        <div className="flex gap-3 text-[18px] sm:text-[18px] hover:text-[#136AAD] mb-2">
             <Image 
             className=""
             src="/images/logo_cloudkilat.png"
@@ -44,7 +44,7 @@ const Information = () => {
         </div>
         </a>
         <a href="">
-        <div className="flex gap-3 text-[16px] sm:text-[20px] hover:text-[#136AAD] mb-2">
+        <div className="flex gap-3 text-[18px] sm:text-[18px] hover:text-[#136AAD] mb-2">
             <Image 
             className=""
             src="/images/logo_cloudkilat.png"
@@ -56,7 +56,7 @@ const Information = () => {
         </div>
         </a>
         <a href="">
-        <div className="flex gap-3 text-[16px] sm:text-[20px] hover:text-[#136AAD] mb-2">
+        <div className="flex gap-3 text-[18px] sm:text-[18px] hover:text-[#136AAD] mb-2">
             <Image 
             className=""
             src="/images/logo_cloudkilat.png"
@@ -68,7 +68,7 @@ const Information = () => {
         </div>
         </a>
         <a href="">
-        <div className="flex gap-3 text-[16px] sm:text-[20px] hover:text-[#136AAD] mb-2">
+        <div className="flex gap-3 text-[18px] sm:text-[18px] hover:text-[#136AAD] mb-2">
             <Image 
             className=""
             src="/images/logo_cloudkilat.png"
@@ -80,7 +80,7 @@ const Information = () => {
         </div>
         </a>
         <a href="">
-        <div className="flex gap-3 text-[16px] sm:text-[20px] hover:text-[#136AAD] mb-2">
+        <div className="flex gap-3 text-[18px] sm:text-[18px] hover:text-[#136AAD] mb-2">
             <Image 
             className=""
             src="/images/logo_cloudkilat.png"
@@ -92,7 +92,7 @@ const Information = () => {
         </div>
         </a>
         <a href="">
-        <div className="flex gap-3 text-[16px] sm:text-[20px] hover:text-[#136AAD] mb-2">
+        <div className="flex gap-3 text-[18px] sm:text-[18px] hover:text-[#136AAD] mb-2">
             <Image 
             className=""
             src="/images/logo_cloudkilat.png"

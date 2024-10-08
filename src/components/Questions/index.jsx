@@ -5,7 +5,7 @@ import {
     AccordionTrigger,
 } from "@/components/ui/accordion"
 
-import ArticleTag from '@/components/Ques/articletag'
+import ArticleTag from '@/components/Questions/articletag'
 
 const Page = () => {
     return (

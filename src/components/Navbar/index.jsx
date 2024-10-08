@@ -19,7 +19,6 @@ const Page = () => {
       {/* Navbar */}
       <div className="bg-primary-blue h-20 px-10 py-4">
         <div className="flex justify-between items-center text-white">
-
           {/* Bagian Logo */}
           <div className="flex items-center px-10">
             <Image
@@ -32,7 +31,6 @@ const Page = () => {
 
           {/* Bagian Navigation */}
           <div className="hidden md:flex items-center gap-2 space-x-5">
-            {/* Menu Dropdown */}
             <NavigationMenu>
               <NavigationMenuList>
                 <NavigationMenuItem>
@@ -76,33 +74,32 @@ const Page = () => {
       </div>
 
       {/* Panduan Lengkap Section */}
-      <div className="bg-primary-blue text-white px-20 py-16 h-96 relative overflow-hidden">
-        <div className="flex flex-col">
+      <div className="bg-primary-blue text-white px-6 md:px-20 py-16 md:h-96 relative overflow-hidden">
+        <div className="flex flex-col md:flex-row items-start md:items-center md:justify-between">
           {/* Teks di bagian atas */}
-          <div>        
-            <h1 className="text-xl nunito max-w-[35rem] word-spacing leading-8">
+          <div className="z-10 max-w-[35rem]">
+            <h1 className="text-lg md:text-xl nunito word-spacing leading-8">
               Panduan Lengkap <b>Penggunaan Produk</b> dan <b>Platform CloudKilat,</b> serta informasi umum yang relevan dan bermanfaat
             </h1>
-            
+
             <div className="mt-5">
               <Search />
             </div>
           </div>
 
           {/* Gambar bulat dan laptop */}
-          <div className="absolute right-0 top-0 w-2/3 h-full">
+          <div className="absolute right-0 top-0 md:w-2/3 h-full z-0">
             {/* Gambar bulat-bg di sebelah kanan */}
             <Image
-              className="absolute right-0 top-0 z-0"
+              className="absolute right-0 top-0 md:mt-[100px] object-cover"
               src="/images/bulat-bg.png"
               alt="Background"
               width={800}
               height={800}
-              objectFit="cover"
             />
             {/* Gambar laptop yang menimpa bulat-bg */}
             <Image
-              className="absolute right-16 mt-10 z-10"
+              className="absolute right-16 top-10 md:right-16 md:top-10 md:mt-9 z-10"
               src="/images/laptop-cloud.png"
               alt="Cloudkilat Laptop"
               width={320}
