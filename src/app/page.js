@@ -1,8 +1,9 @@
 import Navbar from "@/components/Navbar";
-import PortalCloud from "@/components/PortalCloud";
+import ProdukCloud from "@/components/ProdukCloud";
+import PortalCloud from "@/components/PortalCloud"
 import Information from "@/components/Information";
-import Questions from "@/components/Questions";
-import ProdukCloud from "@/components/ProdukCloud"
+import Questions from "@/components/Questions"
+import Footer from "@/components/Footer"
 
 const Page = () => {
     return (
@@ -11,6 +12,7 @@ const Page = () => {
             <PortalCloud/>
             <Information/> 
             <Questions/>
+            <Footer/>
             
         </>
        

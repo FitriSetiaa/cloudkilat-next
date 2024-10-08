@@ -76,7 +76,7 @@ const Page = () => {
 
                         </Accordion>
                     </div>
-                    <div className="w-1/3 ml-10"> {/* Lebar 1/3 untuk ArticleTag */}
+                    <div className="w-1/3 ml-10">
                         <ArticleTag />
                     </div>
 
