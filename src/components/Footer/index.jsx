@@ -2,7 +2,7 @@ import Image from "next/image";
 const Page = () => {
     return (
         <>
-            <footer className="bg-primary-blue text-white py-10 p-24">
+            <footer className="bg-primary-blue text-white py-10 p-20 ">
                 <div className="container mx-auto flex flex-col md:flex-row justify-between">
 
 
@@ -113,7 +113,7 @@ const Page = () => {
                     </div>
 
                 </div>
-                <div className="mt-8 pt-4 border-t border-white flex justify-between items-center text-sm">
+                <div className="mt-4 pt-4 border-t border-white flex justify-between items-center text-sm">
                     <p>Copyright © 2024 Knowledge Base CloudKilat</p>
 
                     <p className="flex items-center">

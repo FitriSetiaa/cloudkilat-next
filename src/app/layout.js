@@ -1,6 +1,7 @@
 import localFont from "next/font/local";
 import "./globals.css";
 import { Nunito } from 'next/font/google'
+import Footer from "@/components/Footer"
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -14,7 +15,7 @@ const geistMono = localFont({
 });
 const geistNunito = Nunito({
   subsets: ['latin'], 
-  weight: ['300', '400', '600', '700'],  // Pilih variasi berat font
+  weight: ['300', '400', '600', '700', '800'],  // Pilih variasi berat font
   variable: '--font-nunito',  // Gunakan CSS variable untuk Nunito
 });
 
@@ -29,8 +30,12 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${geistNunito.variable} antialiased`}
       >
-        {children}
+       
+       {children}
+       <Footer/>  
       </body>
+      
+      
     </html>
   );
 }

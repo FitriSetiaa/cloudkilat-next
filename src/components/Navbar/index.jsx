@@ -29,6 +29,7 @@ const Page = () => {
               height={50}
             />
           </div>
+        
 
           {/* Bagian Navigation */}
           <div className="hidden md:flex items-center gap-2 space-x-5">

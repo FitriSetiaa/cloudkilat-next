@@ -10,7 +10,7 @@ import {
   const Sidebar = () => {
     return (
       <>
-        <h2 className="text-md nunito mb-4 nunito font-semibold text-gray-500">PORTAL</h2>
+        <h2 className="text-md nunito mb-4">PORTAL</h2>
   
         <Accordion type="single" collapsible>
           <AccordionItem value="kilat-vm">
@@ -21,7 +21,7 @@ import {
                 width={20}
                 height={20}
               />
-              <span className="flex-1 nunito font-bold text-gray-500 ">Kilat VM 2.0</span>
+              <span className="flex-1 ">Kilat VM 2.0</span>
             </AccordionTrigger>
             <AccordionContent className="pl-8">
               <p>Submenu 1</p>
@@ -37,7 +37,7 @@ import {
                 width={20}
                 height={20}
               />
-              <span className="flex-1 nunito font-bold text-gray-500">Kilat Hosting 2.0</span>
+              <span className="flex-1">Kilat Hosting 2.0</span>
             </AccordionTrigger>
             <AccordionContent className="pl-8">
               <p>Submenu 1</p>
@@ -53,7 +53,7 @@ import {
                 width={20}
                 height={20}
               />
-              <span className="flex-1 nunito font-bold text-gray-500">Kilat Storage</span>
+              <span className="flex-1">Kilat Storage</span>
             </AccordionTrigger>
             <AccordionContent className="pl-8">
               <p>Memulai Kilat Storage</p>
@@ -70,7 +70,7 @@ import {
                 width={20}
                 height={20}
               />
-              <span className="flex-1 nunito font-bold text-gray-500">Kilat Protect</span>
+              <span className="flex-1">Kilat Protect</span>
             </AccordionTrigger>
             <AccordionContent className="pl-8">
               <p>Submenu 1</p>
@@ -78,8 +78,8 @@ import {
             </AccordionContent>
           </AccordionItem>
         </Accordion>
-        <div className="mt-5 pt-4  flex justify-between  border-t border-gray-200 items-center text-sm">
-       
+        <div className="mt-8 pt-4  flex justify-between items-center text-sm">
+        {/* border-t border-black */}
         </div>
         </>
     );

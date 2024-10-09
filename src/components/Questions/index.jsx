@@ -5,7 +5,7 @@ import {
     AccordionTrigger,
 } from "@/components/ui/accordion"
 
-import ArticleTag from '@/components/Ques/articletag'
+import ArticleTag from '@/components/Questions/articletag'
 
 const Page = () => {
     return (
@@ -18,14 +18,14 @@ const Page = () => {
                     <div className="w-2/3">
                         <Accordion type="single" collapsible className="ml-10">
                             <AccordionItem value="item-1">
-                                <AccordionTrigger >Bagaimana cara saya melakukan renewal domain yang telah Expired?</AccordionTrigger>
+                                <AccordionTrigger className='border-b hover:underline'>Bagaimana cara saya melakukan renewal domain yang telah Expired?</AccordionTrigger>
                                 <AccordionContent>
                                     Yes. It adheres to the WAI-ARIA design pattern.
                                 </AccordionContent>
                             </AccordionItem>
 
                             <AccordionItem value="item-2">
-                                <AccordionTrigger >Bagaimana Cara Memindahkan Layanan Antar Sesama Akun CloudKilat?</AccordionTrigger>
+                                <AccordionTrigger className='border-b hover:underline'>Bagaimana Cara Memindahkan Layanan Antar Sesama Akun CloudKilat?</AccordionTrigger>
                                 <AccordionContent>
                                     <p className="leading-6">Untuk melakukan perpindahan layanan antar akun CloudKilat, Anda dapat melakukan request melalui tiket ataupun mengirimkan email ke info@cloudkilat.com. Adapun beberapa syarat yang perlu dipenuhi agar layanan dapat dipindahkan, diantaranya:</p>
                                     <ul className="mt-8 leading-6">
@@ -37,21 +37,21 @@ const Page = () => {
                             </AccordionItem>
 
                             <AccordionItem value="item-3">
-                                <AccordionTrigger >Bagaimana cara meningkatkan limit akun saya?</AccordionTrigger>
+                                <AccordionTrigger className='border-b hover:underline'>Bagaimana cara meningkatkan limit akun saya?</AccordionTrigger>
                                 <AccordionContent>
                                     Yes. It adheres to the WAI-ARIA design pattern.
                                 </AccordionContent>
                             </AccordionItem>
 
                             <AccordionItem value="item-4">
-                                <AccordionTrigger >Bagaimana saya dapat mengklaim pembebasan pajak?</AccordionTrigger>
+                                <AccordionTrigger className='border-b hover:underline'>Bagaimana saya dapat mengklaim pembebasan pajak?</AccordionTrigger>
                                 <AccordionContent>
                                     Yes. It adheres to the WAI-ARIA design pattern.
                                 </AccordionContent>
                             </AccordionItem>
 
                             <AccordionItem value="item-5">
-                                <AccordionTrigger >Di zona waktu apa waktu mulai dan berakhir pada faktur saya?</AccordionTrigger>
+                                <AccordionTrigger className='border-b hover:underline'>Di zona waktu apa waktu mulai dan berakhir pada faktur saya?</AccordionTrigger>
                                 <AccordionContent>
                                     Yes. It adheres to the WAI-ARIA design pattern.
                                 </AccordionContent>
@@ -59,14 +59,14 @@ const Page = () => {
 
 
                             <AccordionItem value="item-6">
-                                <AccordionTrigger >Bagaimana cara mengatur pembayaran melalui ACH atau Wire?</AccordionTrigger>
+                                <AccordionTrigger className='border-b hover:underline' >Bagaimana cara mengatur pembayaran melalui ACH atau Wire?</AccordionTrigger>
                                 <AccordionContent>
                                     Yes. It adheres to the WAI-ARIA design pattern.
                                 </AccordionContent>
                             </AccordionItem>
 
                             <AccordionItem value="item-7">
-                                <AccordionTrigger >Bagaimana saya ditagih untuk penyimpanan objek?</AccordionTrigger>
+                                <AccordionTrigger className='border-b hover:underline' >Bagaimana saya ditagih untuk penyimpanan objek?</AccordionTrigger>
                                 <AccordionContent>
                                     Yes. It adheres to the WAI-ARIA design pattern.
                                 </AccordionContent>

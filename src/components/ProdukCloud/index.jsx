@@ -1,12 +1,11 @@
 import {
   Card,
-  CardContent,
   CardDescription,
-  CardFooter,
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
 import Image from "next/image";
+
 
 const Page = () => {
   return (
@@ -25,8 +24,8 @@ const Page = () => {
                  </div>
                  
                  <div className="p-[50px]"> 
-                     <h1 className="nunito font-bold text-2xl text-blue-800 ml-10 mb-16">PRODUKKKKKKK</h1>
-                     <div className="grid grid-cols-1 md:grid-cols-2 gap-[10px]"> 
+                 <h1 className="nunito text-3xl mb-10 text-[#136AAD]">PORTAL CLOUDKILAT</h1>
+                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6"> 
  
                          {/* Kartu 1 */}
                          <Card className='max-w-xl bg-white shadow-lg rounded-lg transition-all transform hover:scale-105 mx-auto'>
