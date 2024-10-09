@@ -8,6 +8,10 @@ module.exports = {
   ],
   theme: {
   	extend: {
+		screens:{
+			mb: '360px',
+			bs: '1040px',
+		},
   		colors: {
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',

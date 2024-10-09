@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Information = () => {
   return (
-    <div className="relative  md:p-[50px] nunito">
+    <div className="relative  md:p-[50px] nunito sm:p-6 mb:p-6">
       <div className="flex justify-between items-center mb-10">
         <strong><h1 className="nunito font-bold text-2xl text-blue-800 ml-10 ">INFORMASI UMUM</h1></strong>
         <a href="">
@@ -18,7 +18,14 @@ const Information = () => {
           </div>
         </a>
       </div>
-      <div className="font-bold pl-7">
+      <Image 
+        className="absolute bottom-0 translate-x-[0px] translate-y-[0px]"
+        src="/images/elips5.png"
+        alt="Elips"
+        width={1177}
+        height={1177}
+      />
+      <div className="font-bold pl-7 relative">
         <a href="">
         <div className="flex gap-3 text-[18px] sm:text-[18px] hover:text-[#136AAD] mb-2">
             <Image 
