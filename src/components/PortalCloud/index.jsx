@@ -11,7 +11,7 @@ import Image from "next/image";
 const Page = () => {
   return (
     <>
-      <div className="relative">
+      <div className="relative overflow-hidden">
         <div className="p-[50px]">
           <h1 className="nunito font-bold text-2xl text-blue-800 ml-10 mb-14">
             PRODUK CLUDKILAT

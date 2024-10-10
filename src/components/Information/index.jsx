@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Information = () => {
   return (
-    <div className="relative  md:p-[50px] nunito sm:p-6 mb:p-6">
+    <div className="relative  md:p-[50px] nunito sm:p-6 mb:p-6 overflow-hidden">
       <div className="flex justify-between items-center mb-10">
         <strong><h1 className="nunito font-bold text-2xl text-blue-800 ml-10 ">INFORMASI UMUM</h1></strong>
         <a href="">
