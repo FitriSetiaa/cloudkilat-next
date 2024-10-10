@@ -12,8 +12,7 @@ const Page = () => {
             <PortalCloud/>
             <Information/> 
             <Questions/>
-            <Footer/>
-            
+            <Footer/>  
         </>
        
     );

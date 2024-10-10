@@ -19,7 +19,7 @@ const Page = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <div>
+    <div className="overflow-hidden">
       {/* Navbar */}
       <div className="bg-primary-blue px-4 sm:px-6 md:px-10 py-4">
         <div className="flex justify-between items-center text-white">
@@ -41,7 +41,7 @@ const Page = () => {
           >
             <Menu size={24} />
           </button>
-
+ 
           {/* Navigation for larger screens */}
           <div className="hidden lg:flex items-center gap-2 space-x-5">
             <NavigationMenu>
