@@ -2,9 +2,19 @@ import Image from "next/image";
 
 const Information = () => {
   return (
+<<<<<<< HEAD:src/components/Information/index.jsx
     <div className="relative  md:p-[50px] nunito sm:p-6 mb:p-6 overflow-hidden">
+=======
+<<<<<<< HEAD:src/components/Information/index.jsx
+    <div className="relative  md:p-[50px] nunito sm:p-6 mb:p-6 overflow-hidden">
+=======
+    <div className="relative p-5 sm:p-10 nunito">
+>>>>>>> 02c983e4ba7770b0ebeab2cedc556b500fbcf363:src/components/Beranda/information.jsx
+>>>>>>> 38986531674b5fd77c453d44e2594ec22758223f:src/components/Beranda/information.jsx
       <div className="flex justify-between items-center mb-10">
-        <strong><h1 className="nunito font-bold text-2xl text-blue-800 ml-10 ">INFORMASI UMUM</h1></strong>
+        <strong>
+          <h1 className="text-[#136AAD] text-2xl sm:text-3xl">INFORMASI UMUM</h1>
+        </strong>
         <a href="">
           <div className="flex items-center gap-2">
             <p className="hidden sm:block text-sm sm:text-base">Tampilkan Semua</p>
@@ -18,16 +28,9 @@ const Information = () => {
           </div>
         </a>
       </div>
-      <Image 
-        className="absolute bottom-0 translate-x-[0px] translate-y-[0px]"
-        src="/images/elips5.png"
-        alt="Elips"
-        width={1177}
-        height={1177}
-      />
-      <div className="font-bold pl-7 relative">
+      <div className="nunito">
         <a href="">
-        <div className="flex gap-3 text-[18px] sm:text-[18px] hover:text-[#136AAD] mb-2">
+          <div className="flex gap-3 text-sm sm:text-base hover:text-[#136AAD] hover:underline mb-2">
             <Image 
               src="/images/logo_cloudkilat.png"
               alt="Cloudkilat"
@@ -38,7 +41,7 @@ const Information = () => {
           </div>
         </a>
         <a href="">
-        <div className="flex gap-3 text-[18px] sm:text-[18px] hover:text-[#136AAD] mb-2">
+          <div className="flex gap-3 text-sm sm:text-base hover:text-[#136AAD] hover:underline mb-2">
             <Image 
               src="/images/logo_cloudkilat.png"
               alt="Cloudkilat"
@@ -49,7 +52,7 @@ const Information = () => {
           </div>
         </a>
         <a href="">
-        <div className="flex gap-3 text-[18px] sm:text-[18px] hover:text-[#136AAD] mb-2">
+          <div className="flex gap-3 text-sm sm:text-base hover:text-[#136AAD] hover:underline mb-2">
             <Image 
               src="/images/logo_cloudkilat.png"
               alt="Cloudkilat"
@@ -60,7 +63,7 @@ const Information = () => {
           </div>
         </a>
         <a href="">
-        <div className="flex gap-3 text-[18px] sm:text-[18px] hover:text-[#136AAD] mb-2">
+          <div className="flex gap-3 text-sm sm:text-base hover:text-[#136AAD] hover:underline mb-2">
             <Image 
               src="/images/logo_cloudkilat.png"
               alt="Cloudkilat"
@@ -71,7 +74,7 @@ const Information = () => {
           </div>
         </a>
         <a href="">
-        <div className="flex gap-3 text-[18px] sm:text-[18px] hover:text-[#136AAD] mb-2">
+          <div className="flex gap-3 text-sm sm:text-base hover:text-[#136AAD] hover:underline mb-2">
             <Image 
               src="/images/logo_cloudkilat.png"
               alt="Cloudkilat"
@@ -82,7 +85,7 @@ const Information = () => {
           </div>
         </a>
         <a href="">
-        <div className="flex gap-3 text-[18px] sm:text-[18px] hover:text-[#136AAD] mb-2">
+          <div className="flex gap-3 text-sm sm:text-base hover:text-[#136AAD] hover:underline mb-2">
             <Image 
               src="/images/logo_cloudkilat.png"
               alt="Cloudkilat"
@@ -93,7 +96,7 @@ const Information = () => {
           </div>
         </a>
         <a href="">
-        <div className="flex gap-3 text-[18px] sm:text-[18px] hover:text-[#136AAD] mb-2">
+          <div className="flex gap-3 text-sm sm:text-base hover:text-[#136AAD] hover:underline mb-2">
             <Image 
               src="/images/logo_cloudkilat.png"
               alt="Cloudkilat"

@@ -1,0 +1,13 @@
+/* Tambahkan CSS ini di file CSS global Anda atau di style component */
+.accordion-trigger {
+    border-bottom: none; /* Menghapus garis bawah */
+  }
+  
+  .accordion-trigger:focus {
+    outline: none; 
+  }
+
+  .bg-blue-accordion{
+   background-color: rgba(221, 242, 255, 1);
+  }
+  
