@@ -10,7 +10,7 @@ import {
   NavigationMenuViewport,
 } from "@/components/ui/navigation-menu";
 import Image from 'next/image';
-import Search from '@/components/Navbar/search'
+
 import '@/style-css/navbar.css'
 import { useState } from 'react';
 import { Menu } from 'lucide-react';
@@ -33,6 +33,7 @@ const Page = () => {
               height={50}
             />
           </div>
+        
 
           {/* Mobile Menu Button */}
           <button 
@@ -95,11 +96,11 @@ const Page = () => {
         )}
       </div>
 
-       <div className="bg-primary-blue text-white px-4 sm:px-6 md:px-20 py-8 md:py-16 relative overflow-hidden">
+      <div className="bg-primary-blue text-white px-4 sm:px-6 md:px-20 py-8 md:py-16 relative overflow-hidden">
       <div className="flex flex-col md:flex-row items-center md:items-start md:justify-between">
         {/* Text content */}
         <div className="z-10 w-full md:max-w-[35rem] mb-8 md:mb-0">
-          <h1 className="text-xl sm:text-2xl md:text-3xl nunito leading-tight mb-4">
+          <h1 className="text-md sm:text-2xl md:text-md nunito leading-tight mb-4">
             Panduan Lengkap <b>Penggunaan Produk</b> dan <b>Platform CloudKilat,</b> serta informasi umum yang relevan dan bermanfaat
           </h1>
           <div className="mt-4 md:mt-6">

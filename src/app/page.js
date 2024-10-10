@@ -1,18 +1,18 @@
-import Navbar from "@/components/Navbar";
-import ProdukCloud from "@/components/ProdukCloud";
-import PortalCloud from "@/components/PortalCloud"
-import Information from "@/components/Information";
-import Questions from "@/components/Questions"
-import Footer from "@/components/Footer"
-
+import Beranda from "@/components/Beranda/index"
 const Page = () => {
     return (
         <>
+<<<<<<< HEAD
             <Navbar />
             <PortalCloud/>
             <Information/> 
             <Questions/>
             <Footer/>  
+=======
+           
+           <Beranda/>
+            
+>>>>>>> 02c983e4ba7770b0ebeab2cedc556b500fbcf363
         </>
        
     );

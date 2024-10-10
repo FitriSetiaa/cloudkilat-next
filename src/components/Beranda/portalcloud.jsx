@@ -1,7 +1,6 @@
 import {
   Card,
   CardContent,
-  CardDescription,
   CardFooter,
   CardHeader,
   CardTitle,
@@ -11,6 +10,7 @@ import Image from "next/image";
 const Page = () => {
   return (
     <>
+<<<<<<< HEAD:src/components/PortalCloud/index.jsx
       <div className="relative overflow-hidden">
         <div className="p-[50px]">
           <h1 className="nunito font-bold text-2xl text-blue-800 ml-10 mb-14">
@@ -107,6 +107,8 @@ const Page = () => {
           </div>
         </div>
       </div>
+=======
+>>>>>>> 02c983e4ba7770b0ebeab2cedc556b500fbcf363:src/components/Beranda/portalcloud.jsx
 
       <div className="p-[40px] pr-[10px] bg-[#F2FAFF] nunito relative">
         <strong>
